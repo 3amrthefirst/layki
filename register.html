@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrab css-->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- bootstrab min -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <!-- icon -->
+    <link rel="icon" href="./img/logo.png">
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- animaition loibrary  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- title -->
+    <title>شركة لايكي للأحذية </title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <!-- nav-bar start -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand me-5" href="./index.html"><img src="./img/logo.png" class="img-fluid resize " alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                <li class="nav-item">
+                    <a class="nav-link  cool-link" aria-current="page" href="./index.html"> الرئيسيه</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link  cool-link" aria-current="page" href="./stock1.html">بوابيج شتوي</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  cool-link" href="./stock2.html">جزم شتوي  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cool-link" href="./stock3.html">سبورت</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cool-link " href="./stock4.html"> سبورت كعب مخفي</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cool-link " href="./stock5.html">شنته  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cool-link " href="./stock6.html"> كنادر</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active cool-link " href="./login.html"> دخول</a>
+              </li>
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+          <!-- nav-bar end -->
+     
+          <div class="container">
+
+            <h2>إفتح حسابك الآن</h2>
+    
+    <form class="new_user" id="new_user" action="/users" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="oicHd0vzo7uEvdwjXTZ8bowjbsuJDkGGr9mhKYhpuoTKHPabFVsQgsRm5s3_NgguPY-AAvp10KbsxZs4jQ81Dw" />
+      
+    
+      <div class="field">
+        <label for="user_name">الإسم</label><br />
+        <input autofocus="autofocus" autocomplete="email" type="text" name="user[name]" id="user_name" />
+        <span class="text-danger">    </span> <!-- error span msg -->
+      </div>
+    
+    
+    
+      <div class="field">
+        <label for="user_email">Email</label><br />
+        <input autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email" />
+        <span class="text-danger">    </span> <!-- error span msg -->
+      </div>
+    
+      <div class="field">
+        <label for="user_password">كلمة المرور</label>
+        <em>(6 أحرف على الأقل)</em>
+        <br />
+        <input autocomplete="new-password" type="password" name="user[password]" id="user_password" />
+        
+        <span class="text-danger">    </span> <!-- error span msg -->
+      </div>
+    
+      <div class="field">
+        <label for="user_password_confirmation">إعادة كلمة المرور</label><br />
+        <input autocomplete="new-password" type="password" name="user[password_confirmation]" id="user_password_confirmation" />
+        <span class="text-danger">    </span> <!-- error span msg -->
+      </div>
+    
+      <div class="actions">
+        <input type="submit" name="commit" value="فتح حساب" class="btn btn-primary" data-disable-with="فتح حساب" />
+      </div>
+    </form>
+      <div class="col-12 my-2"><a class="btn btn-primary" href="/users/sign_in">تسجيل الدخول</a></div>
+          </div>
+
+
+
+    <!-- bootstrab min js -->
+    <script src="./js/all.min.js"></script>
+    <!-- bootstrab -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- jquery  min -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <!-- script  -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

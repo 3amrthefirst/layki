@@ -1,0 +1,33 @@
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* nav bar start */ 
+.resize{
+
+    width: 50px;
+    height: 50px;
+}
+/* nav bar end */ 
+
+/* search bar start */
+
+
+/* search bar end */
+/*style-stock start */
+.style-stock{
+    height: 50px;
+    background-color: rgb(40, 190, 190);
+    color: #ffffff;
+}
+.style-stock:hover{
+    background-color: rgba(40, 190, 190, 0.795);
+    cursor: pointer;
+}
+/*style-stock end */
+.pic-size{
+    width: 250px;
+    height: 250px;
+}

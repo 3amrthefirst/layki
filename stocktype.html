@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrab css-->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- bootstrab min -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <!-- icon -->
+    <link rel="icon" href="./img/logo.png">
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- animaition loibrary  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- title -->
+    <title>شركة لايكي للأحذية </title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- nav-bar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand me-5" href="./index.html"><img src="./img/logo.png" class="img-fluid resize " alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                <li class="nav-item">
+                    <a class="nav-link  cool-link" aria-current="page" href="./index.html"> الرئيسيه</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active cool-link" aria-current="page" href="./stock1.html">بوابيج شتوي</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cool-link" href="./about.html">جزم شتوي  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cool-link" href="./our services.html">سبورت</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cool-link " href="./contact us.html"> سبورت كعب مخفي</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cool-link " href="./contact us.html">شنته  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cool-link " href="./contact us.html"> كنادر</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cool-link " href="./login.html"> دخول</a>
+              </li>
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+          <!-- nav-bar end -->
+            <section class="stock">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="./img/stock-pic.jpg" class="pic-size img-fluid my-5" alt=""><br>
+                            <h1 class="my-2">حفاية طبي اسود - B01</h1><br><br>
+                            <strong class="my-2">القسم: <span>سبورت</span></strong><br>
+                            <strong class="my-2">السعر: <span>120</span></strong><br>
+                            <strong class="my-2">اللون : <span>احمر</span></strong><br><br><br>
+                            <table class='table table-striped table-bordered'>
+                              <tr>
+                                <th>المقاس</th>
+                                <th>العدد</th>
+                                <th>اضافه</th>
+                              </tr>
+                                <tr>
+                                  <td>36</td>
+                                  <td>1</td>
+                                  <td> <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> إضافه +</a> </td>
+                                                                      
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel"> طلب المنتج</h5><br>
+                                            
+                                          </div>
+                                          <div class="modal-body">
+                                            <form action="" method="post">
+                                              <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">الاسم:</label>
+                                                <input type="text" class="form-control" name="" value="بوابيج شتوي" readonly id="exampleInputPassword1">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">المقاس:</label>
+                                                <input type="text" class="form-control" name="" value="38" readonly id="exampleInputPassword1">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">العدد:</label>
+                                                <input type="text" class="form-control" name="" value="" placeholder="ادحل عدد الطلبيه"  id="exampleInputPassword1">
+                                                 <span class="text-danger"> يجب ادخال عدد </span>
+
+                                              </div>
+                                     
+                                            </form>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">إلغاء</button>
+                                            <button type="button" class="btn btn-success"> طلب المنتج</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                  <td>37</td>
+                                  <td>2</td>
+                                  <td> <a class="btn btn-primary" href=""> إضافه +</a> </td>
+
+                                </tr>
+                                <tr>
+                                  <td>38</td>
+                                  <td>2</td>
+                                  <td> <a class="btn btn-primary" href=""> إضافه +</a> </td>
+
+                                </tr>
+                                <tr>
+                                  <td>39</td>
+                                  <td>2</td>
+                                  <td> <a class="btn btn-primary" href=""> إضافه +</a> </td>
+
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+    <!-- bootstrab min js -->
+    <script src="./js/all.min.js"></script>
+    <!-- bootstrab -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- jquery  min -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <!-- script  -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
