@@ -87,7 +87,29 @@
                               <span class="text-danger">    </span> <!-- error span msg -->
                               <a class="btn btn-primary mb-3" href="">تسجيل دخول</a><br>
                               <a class="btn btn-primary mb-3" href="./register.html"> فتح حساب جديد </a><br>
-                              <a class="btn btn-primary mb-3" href="">هل نسيت كلمه المرور؟ </a><br>
+                              <a class="btn btn-primary mb-3"data-bs-toggle="modal" data-bs-target="#exampleModal" href="">هل نسيت كلمه المرور؟ </a><br>
+                                                                  <!-- Modal -->
+                                                                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog">
+                                                                      <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                          <h5 class="modal-title" id="exampleModalLabel"> تغيير كلمه السر</h5><br>
+                                                                          
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                          <div class="field">
+                                                                            <label for="email"> البريد الالكتروني</label><br>
+                                                                            <input  placeholder="ادحل البريد الالكتروني .. !" type="email" name="email"  />
+                                                                            <span class="text-danger">    </span> <!-- error span msg -->
+                                                                          </div>
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">إلغاء</button>
+                                                                          <button type="button" class="btn btn-success"> إسترجاع </button>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
                           </form>
                     </div>
                 </div>
